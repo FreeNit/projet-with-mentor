@@ -1,0 +1,155 @@
+/* COLOR VARIABLES */
+:root {
+  --primary-text-color: #8F95A5;
+  --secondary-text-color: #000000;
+
+  --primary-decor-color: #263238;
+  --secondary-decor-color: #546269;
+  --third-decor-color: #939393;
+  --forth-decor-element: #FFFFFF;
+}
+
+
+/* 
+***** GENERAL *****
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin: 0;
+  background-color: var(--forth-decor-element);
+}
+
+.container {
+  width: 1378px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+.section {
+  margin: 180px 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  display: inline-block;
+}
+
+.logo-decor {
+  color: var(--third-decor-color);
+}
+
+.btn {
+  font-family: inherit;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* 
+***** COMPONENTS *****
+*/
+
+/* Header */
+
+.page-header {
+  margin: 55px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 236px;
+}
+
+.main-navigation {
+  display: flex;
+  column-gap: 50px;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--primary-decor-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: tomato;
+}
+
+.btn-talk {
+  font-size: 20px;
+  line-height: 0.66;
+  padding: 20px 108px;
+  color: var(--secondary-text-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-decor-color);
+  margin-left: auto;
+}
