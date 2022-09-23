@@ -6,7 +6,8 @@
   --primary-decor-color: #263238;
   --secondary-decor-color: #546269;
   --third-decor-color: #939393;
-  --forth-decor-element: #FFFFFF;
+  --fort-decor-color: #FFFFFF;
+  --fifth-decor-color: #EEEEEE;
 }
 
 
@@ -35,6 +36,13 @@ p {
   margin-bottom: 0;
 }
 
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -51,7 +59,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin: 0;
-  background-color: var(--forth-decor-element);
+  background-color: var(--fort-decor-color);
 }
 
 .container {
@@ -152,4 +160,150 @@ body {
   background-color: transparent;
   border: 2px solid var(--primary-decor-color);
   margin-left: auto;
+}
+
+.btn-talk:hover,
+.btn-talk:focus {
+  border-color: tomato;
+  color: tomato;
+}
+
+/* Hero */
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+  margin-bottom: 40px;
+}
+
+.hero-description {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+.hero-btn {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+
+  color: var(--fort-decor-color);
+  background-color: var(--primary-decor-color);
+  padding: 23px 106px;
+}
+
+/* Skills */
+
+
+/* About Us */
+
+
+
+
+/* Pricing */
+
+.pricing-title {
+  text-align: center;
+}
+
+.pricing-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.pricing-item {
+  flex-basis: calc(100% / 3);
+}
+
+.price-img {
+  margin-bottom: 31px;
+}
+
+.price-name {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: var(--primary-decor-color);
+  margin-bottom: 20px;
+}
+
+.price-description {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.price-wrapper {
+  display: inline-block;
+  background-color: var(--fifth-decor-color);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--secondary-decor-color);
+  padding: 11px 22px 7px;
+  border-radius: 5px;
+}
+
+.price-value {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--primary-decor-color);
+  margin-right: 28px;
+}
+
+/* Contact Us */
+.contact-us-wrapper {
+  display: flex;
+}
+
+.contact-us-img {
+  margin-right: 145px;
+}
+
+.contact-us-title {
+  margin-bottom: 60px;
+}
+
+.contact-us-description {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+
+
+.terms-and-conditions {
+  margin-left: auto;
+  display: flex;
+  column-gap: 80px;
+}
+
+.terms-and-conditions .link {
+  font-size: 24px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.terms-and-conditions .link:hover,
+.terms-and-conditions .link:focus {
+  color: tomato;
 }

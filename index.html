@@ -44,14 +44,22 @@
     <main>
       <!-- HERO -->
       <section>
-        <div class="container">
-          <h1>Lear Any Foreign Language</h1>
-          <img src="./images/bulb-icon.svg" alt="lamp" width="85" height="85" />
-          <p>
-            With our teachers who write a program for each student, you will be
-            able to make your first sketch after the first lesson.
-          </p>
-          <button type="button" class="btn">Get started</button>
+        <div class="container hero-wrapper">
+          <div class="hero-text">
+            <h1 class="hero-title">Lear Any Foreign Language</h1>
+            <img
+              src="./images/bulb-icon.svg"
+              alt="lamp"
+              width="85"
+              height="85"
+              class="hero-img"
+            />
+            <p class="hero-description">
+              With our teachers who write a program for each student, you will
+              be able to make your first sketch after the first lesson.
+            </p>
+            <button type="button" class="btn hero-btn">Get started</button>
+          </div>
           <img
             src="./images/learning-languages.png"
             alt="learning-languages"
@@ -62,7 +70,7 @@
       </section>
 
       <!-- SKILLS -->
-      <section>
+      <section class="section">
         <div class="container">
           <h2>Skills</h2>
           <ul class="list">
@@ -166,45 +174,59 @@
       </section>
 
       <!-- Pricing -->
-      <section>
+      <section class="section">
         <div class="container">
-          <h2>Pricing</h2>
-          <ul class="list">
-            <li>
+          <h2 class="pricing-title">Pricing</h2>
+          <ul class="list pricing-list">
+            <li class="pricing-item">
               <img
                 src="./images/online.png"
                 alt="self-study online course"
                 width="426"
                 height="320"
+                class="price-img"
               />
-              <h3>Self-study online course</h3>
-              <p>
+              <h3 class="price-name">Self-study online course</h3>
+              <p class="price-description">
                 Start learning English online in live classes with qualified EC
                 teachers and students from all over the world.
               </p>
-              <p><span>&#163;5.99</span> per month</p>
+              <p class="price-wrapper">
+                <span class="price-value">&#163;5.99</span> per month
+              </p>
             </li>
-            <li>
+            <li class="pricing-item">
               <img
                 src="./images/lesson.png"
                 alt="live online classes"
                 width="426"
                 height="320"
+                class="price-img"
               />
-              <h3>Live online classes</h3>
-              <p></p>
-              <p><span>&#163;12.99</span> per month</p>
+              <h3 class="price-name">Live online classes</h3>
+              <p class="price-description">
+                Interactive group classes with expert teachers. Free 7-day trial
+              </p>
+              <p class="price-wrapper">
+                <span class="price-value">&#163;12.99</span> per month
+              </p>
             </li>
-            <li>
+            <li class="pricing-item">
               <img
                 src="./images/webinar.png"
                 alt="personal tuition"
                 width="426"
                 height="320"
+                class="price-img"
               />
-              <h3>Personal Tuition</h3>
-              <p></p>
-              <p><span>&#163;12.99</span> per month</p>
+              <h3 class="price-name">Personal Tuition</h3>
+              <p class="price-description">
+                Online one-to-one English tutoring – enjoy our first session for
+                only $1
+              </p>
+              <p class="price-wrapper">
+                <span class="price-value">&#163;12.99</span> per month
+              </p>
             </li>
           </ul>
         </div>
@@ -212,35 +234,38 @@
 
       <!-- Contact Us -->
       <section>
-        <div class="container">
+        <div class="container contact-us-wrapper">
           <img
             src="./images/contact.png"
             alt="contact us"
             height="430"
             width="425"
+            class="contact-us-img"
           />
-          <h2>Contact Us</h2>
-          <p>
-            Discover your current English level by taking our free online
-            English test. Sign up to our newsletter for learning tips and free
-            resources
-          </p>
-          <form action="">
-            <label for="email">Enter Your E-mail</label>
-            <input id="email" type="email" />
-            <button type="submit" class="btn">Subscribe</button>
-          </form>
+          <div class="contact-us-group">
+            <h2 class="contact-us-title">Contact Us</h2>
+            <p class="contact-us-description">
+              Discover your current English level by taking our free online
+              English test. Sign up to our newsletter for learning tips and free
+              resources
+            </p>
+            <form action="">
+              <label for="email">Enter Your E-mail</label>
+              <input id="email" type="email" />
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
+    <footer class="page-footer">
+      <div class="container footer-wrapper">
         <a href="#" class="link logo"
           >Brit<span class="logo-decor">lex</span></a
         >
-        <ul class="list">
+        <ul class="list terms-and-conditions">
           <li>
             <a href="#" class="link">Terms and Conditions</a>
           </li>
